@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "chakuro-develop",
   "version": "1.0.0",
   "description": "＃Chakuro-develop",
   "main": "index.js",
@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/ChakuroPonzu/Chakuro-develop/issues"
   },
-  "homepage": "https://github.com/ChakuroPonzu/Chakuro-develop#readme"
+  "homepage": "https://github.com/ChakuroPonzu/Chakuro-develop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "^9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
 }
